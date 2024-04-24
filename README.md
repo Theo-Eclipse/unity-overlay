@@ -8,4 +8,5 @@ SRP Version(Without Postprocessing):
 
 
 URP Version(With Postprocessing + Bloom by default):
-![image](https://github.com/Theo-Eclipse/unity-overlay/assets/84511904/7c241058-7bb5-4416-9318-0d4fb090a5d7)
+Usage example in OBS 30.1.2:
+![image](https://github.com/Theo-Eclipse/unity-overlay/assets/84511904/c83597a5-ea14-42bf-935b-eb765ebd86d3)
