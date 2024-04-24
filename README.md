@@ -1,4 +1,4 @@
-A quick setup for making borderless overlay apps with SRP and URP in unity.
+A quick setup for making borderless overlay apps with SRP and URP in Unity 2022.3.21f1.
 Works for windows only.
 Will not work in editor - Build to test.
 
