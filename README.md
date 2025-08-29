@@ -1,12 +1,21 @@
-A quick setup for making borderless overlay apps with SRP and URP in Unity 2022.3.21f1.
-Works for windows only.
-Will not work in editor - Build to test.
-
-Root contains 2 projects.
-SRP Version(Without Postprocessing):
-![image](https://github.com/Theo-Eclipse/unity-overlay/assets/84511904/5f8de178-1ac4-4f3e-9cbf-9a23777cae8a)
+(Windows Only!)
+- An example project for making Transparent Overlays with resizable windowm and post-processing effects!
+- Supports Unity 6.2.2f1 (URP Only)
+- Transparency, and window resize features - will not work in editor! Build to test!
+  <img width="1044" height="761" alt="Overlay Preview" src="https://github.com/user-attachments/assets/1d0b8794-ebb8-4be3-882d-ef03df5cf510" />
 
 
-URP Version(With Postprocessing + Bloom by default):
-Usage example in OBS 30.1.2:
-![image](https://github.com/Theo-Eclipse/unity-overlay/assets/84511904/c83597a5-ea14-42bf-935b-eb765ebd86d3)
+How it works?
+- Using custom post-process data stack, with Customized UberPost shader with alpha always enabled.
+<img width="1138" height="1283" alt="URP Settings" src="https://github.com/user-attachments/assets/c0ff248a-ca66-48c0-9d05-7663c53c89e8" />
+
+- Using a camera with fully transparent black color background, and other settings as following:
+<img width="737" height="1236" alt="Overlay Camera Settings" src="https://github.com/user-attachments/assets/f99436b4-9ffc-45b0-b1bb-18be7bc292cc" />
+
+- Windowed mode in Player Settings:
+<img width="1116" height="415" alt="image" src="https://github.com/user-attachments/assets/13451eab-8d8d-4e8a-b694-244c116c41c4" />
+
+- And Main Provider Script(with default values):
+<img width="746" height="486" alt="image" src="https://github.com/user-attachments/assets/c7ddcd03-fb54-426f-bb1d-da9ce9f726bc" />
+
+Enjoy!
