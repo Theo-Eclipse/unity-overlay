@@ -1,6 +1,8 @@
 using Unity.VisualScripting;
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEditor.Build;
+#endif
 
 namespace UnityEngine.UI
 {
